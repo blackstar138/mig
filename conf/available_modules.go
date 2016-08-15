@@ -15,5 +15,8 @@ import (
 	_ "mig.ninja/mig/modules/scribe"
 	_ "mig.ninja/mig/modules/timedrift"
 	//_ "mig/modules/upgrade"
-	//_ "mig/modules/example"
+	_ "mig.ninja/mig/modules/example"
+	_ "mig.ninja/mig/modules/hosts"
+	_ "mig.ninja/mig/modules/prefetch"
+	_ "mig.ninja/mig/modules/registry"
 )
